@@ -1,11 +1,11 @@
-# dai-publications-frontmatter
+# dai-publications-html-frontmatter
 
 This is a javascript browser tool to generate dai-specific frontmatters (for journal articles,
 journal issues, monographs and conference papers) in HTML (exportable as PDF).
 
 It uses uses the bibliographic data from iDAI.bibliography (Zenon).
 
-## Prerequisites:
+## Prerequisites
 
 You need a browser (Chrome, Microsoft Edge and Opera recommended).
 
@@ -15,7 +15,7 @@ You need a browser (Chrome, Microsoft Edge and Opera recommended).
 * Unzip the src code on your desktop and keep src-folder and index.html together
 * Open dai-frontmatter/index.html with your preferred browser
 
-## Usage:
+## Usage
 
 * By default it starts with [...]?zenonId=002023382 as example
 * Add your zenonId as GET-parameter as shown in the default-set
