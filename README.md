@@ -12,8 +12,9 @@ You need a browser (Chrome, Microsoft Edge and Opera recommended).
 ## Installation
 
 * Download the src-code as zip
-* Unzip the src code on your desktop and keep src-folder and index.html together
-* Open dai-frontmatter/index.html with your preferred browser
+* Unzip the src code on your desktop and keep src-folder and index.html together in 
+one folder (e.g. dai-frontmatter)
+* Open [dai-frontmatter]/index.html with your preferred browser
 
 ## Usage
 
@@ -24,7 +25,8 @@ You need a browser (Chrome, Microsoft Edge and Opera recommended).
 * Authors, titles, series and parent titles are editable if necessary
 * Don´t forget to fill out the DOI-suffix at the end (by default it might be incomplete)
 * Print the completed frontmatter-page as PDF using the printing-features of your browser
-	* Optional: The printing-features allows you to scale the PDF-output which should be a well formed single page with the imprint on the bottom.
+	* Optional: The printing-features allows you to scale the PDF-output which should be a 
+	well formed single page with the imprint on the bottom.
 
 
 
