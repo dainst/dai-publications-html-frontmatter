@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "de">
+	<head>
+	  <meta charset = "UTF-8">
+	  <title>DAI-Frontmatter</title>
+	  <link href = "src/css/css_reset.css" rel = "stylesheet">
+	  <link href = "src/css/main.css" rel = "stylesheet">
+	  <link href = "src/css/jquery_ui_styles.css" rel = "stylesheet">
+	  <link src  = "print.css" type = "text/css" media = "print" rel = "stylesheet">
+	  <script src = "src/js/jquery-3.2.1.min.js"></script>
+	  <script src = "src/js/jquery-ui.js"></script>
+	  <script src = "src/js/main.js"></script>
+	</head>
+	<body>
+		<div id = "pubTypeSelect">
+			<button type = "button" title = "Zeitschriftenausgabe" onclick = "setPubTypByButtonInput('Zeitschriftenausgabe');">Zeitschriftenausgabe</button>
+			<button type = "button" title = "Zeitschriftenartikel" onclick = "setPubTypByButtonInput('Artikel');">Zeitschriftenartikel</button>
+			<button type = "button" title = "Monographie" onclick = "setPubTypByButtonInput('Monographie');">Monographie</button>
+			<button type = "button" title = "Sammelwerk-Beitrag" onclick = "setPubTypByButtonInput('Sammelwerk-Beitrag');">Sammelwerk-Beitrag</button>
+		</div>
+		
+		 <div id ="frontmatter">
+			<div id = "logo_container"><!--- contains backround-image: s. main.css -> css/logo.png ---></div>
+			<div id = "title_container">
+				<div id = "section_metadata">
+				<p id = 'intro'>Das ist eine digitale Ausgabe von <span class = 'english_text'>/ This is a digital edition of</span></p>
+				<img id = "loader" src = "src/css/loading.gif"/>
+					<!-- elements and data will be injected by main.js --->
+				</div>
+				<div id = "section_pubIds"><!---- elements and data will be injected by main.js ---></div>
+				<div id = "section_publisher"><!---- elements and data will be injected by main.js ---></div>
+				<div id = "section_copyright"><!---- elements and data will be injected by main.js ---></div>
+				<div id = "section_termsOfUse"><!---- elements and data will be injected by main.js ---></div>
+			</div>
+		 </div>
+	</body>
+</html>

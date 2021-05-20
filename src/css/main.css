@@ -1,0 +1,236 @@
+/* general
+============*/
+
+@media screen {
+	
+	body {
+		font-family:'Calibri', sans-serif;
+		background-color: #f1f1f1;
+	}
+
+	#frontmatter {
+		background-color: white;
+		margin: 2vh auto;
+		width: 70vw;
+		padding: 0 2vw;
+		-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+		-moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+		box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+	}
+
+	#logo_container {
+		-webkit-print-color-adjust: exact !important;
+		background-image: url(logo.png);
+		background-position: right;
+		background-size: auto 220px;
+		background-repeat: no-repeat;
+		height: 36vh;
+		margin-right: 2vw;
+		padding-top: 4vw;
+		padding-bottom: 5vw;
+	}
+
+	#title_container {
+		font-size: 1em;
+		padding: 1vh 3vw;
+		padding-bottom: 8vh;
+	}
+
+	#section_metadata {
+		clear: both;
+	}
+
+	#section_metadata > p {
+		padding: 1vh 0;
+	}
+
+	#section_pubIds {
+		margin-top: 1vh;
+	}
+
+	#section_publisher {
+		margin: 12vh 0 0 0;
+		font-size: 12px;
+	}
+
+	#section_copyright {
+		margin: 1vh 0;
+		font-size: 12px;
+	}
+
+	#section_termsOfUse {
+		font-size: 12px;
+	}
+
+	#section_termsOfUse > p {
+		margin: 1vh 0;
+		text-align:justify;
+	}
+
+	p#intro {
+		padding-top: 1vh;
+		padding-bottom: 2vh;
+	}
+
+	p#author {
+		font-size: 1.2em;
+		padding-top: 4vh 0;
+	}
+
+	p#title {
+		font-size: 1.5em;
+		font-weight: 600;
+	}
+
+	p#series {
+		font-size: 1em;
+		font-weight: 600;
+		padding-top: 0;
+	}
+
+	p#journal {
+		font-size: 1.1em;
+		font-weight: 600;
+	}
+
+	p#beitrag_title {
+		text-align: justify;
+		font-size: 1.1em;
+	}
+
+	td.identifier_label {
+		padding-right: 0.5vw;
+	}
+
+	.english_text {
+		color: rgb(166,179,179);
+	}
+
+	a { 
+		color: blue;
+	}
+
+	#loader {
+		width: 1vw;
+		height: auto;
+	}
+	
+	
+	#pubTypeSelect {
+		position: sticky;
+		top: 0;
+		background-color: #101013;
+		color: white;
+	}
+	
+	button:hover {
+		background-color: #7b95e4;
+		
+	}
+
+}
+
+@media print {
+	
+
+	#frontmatter {
+		background-color: white;
+		margin: 0 auto;
+	}
+
+	#logo_container {
+		-webkit-print-color-adjust: exact !important;
+		background-image: url(logo.png);
+		background-position: right;
+		background-size: auto 220px;
+		background-repeat: no-repeat;
+		height: 36vh;
+	}
+
+	#title_container {
+		height: 30vh;
+		font-size: 1em;
+		padding: 1vh 3vw;
+	}
+
+	#section_metadata {
+		clear: both;
+	}
+
+	#section_metadata > p {
+		padding: 1vh 0;
+	}
+
+	#section_pubIds {
+		margin-top: 1vh;
+	}
+
+	#section_publisher {
+		margin: 5vh 0 0 0;
+		font-size: 12px;
+	}
+
+	#section_copyright {
+		margin: 1vh 0;
+		font-size: 12px;
+	}
+
+	#section_termsOfUse {
+		font-size: 12px;
+	}
+
+	#section_termsOfUse > p {
+		margin: 1vh 0;
+		text-align:justify;
+	}
+
+	p#intro {
+		padding-top: 1vh;
+		padding-bottom: 2vh;
+	}
+
+	p#author {
+		font-size: 1.2em;
+		padding-top: 4vh 0;
+	}
+
+	p#title {
+		font-size: 1.5em;
+		font-weight: 600;
+	}
+
+	p#series {
+		font-size: 1em;
+		font-weight: 600;
+		padding-top: 0;
+	}
+
+	p#journal {
+		font-size: 1.1em;
+		font-weight: 600;
+	}
+
+	p#beitrag_title {
+		text-align: justify;
+		font-size: 1.1em;
+	}
+
+	td.identifier_label {
+		padding-right: 0.5vw;
+	}
+
+	.english_text {
+		color: rgb(166,179,179);
+	}
+
+	a { 
+		color: blue;
+	}
+	
+	div#pubTypeSelect {
+		display:none;
+	}
+
+}
+
+
