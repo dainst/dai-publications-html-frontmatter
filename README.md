@@ -26,7 +26,7 @@ one folder (e.g. dai-frontmatter)
 * Don´t forget to fill out the DOI-suffix at the end (by default it might be incomplete)
 * Print the completed frontmatter-page as PDF using the printing-features of your browser
 	* Optional: The printing-features allows you to scale the PDF-output which should be a 
-	well formed single page with the imprint on the bottom.
+	well formed single page with the imprint at the bottom.
 
 
 
