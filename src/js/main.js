@@ -134,11 +134,11 @@ function parseAuthorNames(authorsTotal) {
 	
 	// collect authorNames as String
 	if (authorsRoleAut.length !== 0) {
-		var StringAuthorNames = authorsRoleAut.join(' - ');		// "aut" preferred;
+		var StringAuthorNames = authorsRoleAut.join(' &ndash; ');		// "aut" preferred;
 	}
 	else{
-		var authorsRoleAutString = authorsRoleAut.join(' - ');
-		var authorsOtherRoleString = authorsOtherRole.join(' - ');
+		var authorsRoleAutString = authorsRoleAut.join(' &ndash; ');
+		var authorsOtherRoleString = authorsOtherRole.join(' &ndash; ');
 		
 		if(authorsRoleAut.length !== 0 && authorsOtherRole.length !== 0) {
 			var StringAuthorNames = authorsRoleAutString + " - " + authorsOtherRoleString;
@@ -306,7 +306,7 @@ function appendImpressumToDOM() {
 	$('#section_publisher').append("<p>Deutsches Archäologisches Institut</p>");
 	
 	// add copyright:
-	$('#section_copyright').append("<p><strong>Copryright (Digital Edition) © "+ copyrightYear + " Deutsches Archäologisches Institut</strong></p>");
+	$('#section_copyright').append("<p><strong>Copyright (Digital Edition) © "+ copyrightYear + " Deutsches Archäologisches Institut</strong></p>");
 	$('#section_copyright').append("<p>Deutsches Archäologisches Institut, Zentrale, Podbielskiallee 69–71, 14195 Berlin, Tel: +49 30 187711-0</p>");
 	$('#section_copyright').append("<p>Email: info@dainst.de | Web: https://www.dainst.org</p>");
 
