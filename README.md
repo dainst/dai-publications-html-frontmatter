@@ -11,7 +11,7 @@ You need a browser (Chrome, Microsoft Edge and Opera recommended).
 
 ## Installation
 
-* Download the src-code as zip
+* Download the src-code as zip (click on "code", then: Download Zip)
 * Unzip the src code on your desktop and keep src-folder and index.html together in 
 one folder (e.g. dai-frontmatter)
 * Open [dai-frontmatter]/index.html with your preferred browser
@@ -19,7 +19,7 @@ one folder (e.g. dai-frontmatter)
 ## Usage
 
 * By default it starts with [...]?zenonId=002023382 as example
-* Add your zenonId as GET-parameter as shown in the default-set
+* Add your zenonId to the url in the adress bar (replacing "002023382")
 * The publicationType (e.g. article) will automatically determined (based on zenon data)
 	* Optional: You can switch the publication type manually with the buttons on top
 * Authors, titles, series and parent titles are editable if necessary
