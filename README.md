@@ -3,7 +3,7 @@
 This is a javascript browser tool to generate dai-specific frontmatters (for journal articles,
 journal issues, monographs and conference papers) in HTML (exportable as PDF).
 
-It uses uses the bibliographic data from iDAI.bibliography (Zenon).
+It uses the bibliographic data from iDAI.bibliography (Zenon).
 
 ## Prerequisites
 
